@@ -1,2 +1,2 @@
 # my_js_game
-je m'entraine a réécrire des jeux classique e utilisant du javascript natif
+je m'entraine à réécrire des jeux classique en utilisant du javascript natif
