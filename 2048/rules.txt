@@ -1,0 +1,12 @@
+rules: lorsque une direction est appuyé(exemple droite):
+-on verifie d'abord les pieces de la colonne la plus a droite vers ceux a gauche
+-si la piece est diferrente de la piece la precedent sur la meme direction et que associé= false alors son déplacement est calculé([depart,arrivé] l'animation correspondante est cree (mais non lancé)
+	-sinon si associé = true meme chose sauf que ca disparition(animation) et la supression de la piece se feront egalement
+-lorque la position finale d'une piece est décidée alors le tableau finale_pos ajoute les cordonnées de la position correspondante
+-lorsque une piece correspond a la piece qui la precedent imediattement et si associé est marqué associé=false alors son deplacment est calculé ainsi que son changement de chiffre
+	-l'autre pion la precedent sera marqué associé
+	-si 
+
+
+need:
+-tableau bidimensionnel finale_pos (variable global)
